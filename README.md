@@ -10,7 +10,7 @@ A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://w
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
-## Prerequisites
+### Prerequisites
 
 This starter is importing the theme as a [Hugo Module](https://gohugo.io/hugo-modules/)
 
