@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Novela, the simplest way to start publishing with Hugo and Forestry.
+  heading: United Lambdas, musings on finance, data science, development and the nordice way of life.
   maxWidthPX: 652
 seo:
   image: /images/hero-2.jpg

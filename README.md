@@ -14,8 +14,7 @@ A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://w
 
 This starter is importing the theme as a [Hugo Module](https://gohugo.io/hugo-modules/)
 
-- Go > 1.12
-- Hugo > 0.65.0 
+- Docker (20.10.7)
 
 ## Content Management
 
@@ -25,41 +24,19 @@ This starter is ready to be imported into [Forestry](https://forestry.io)  ✨.
 
 Any changes you save in the CMS will be commited back to your Git repository.
 
-## Deploy on Netlify
+## Deploy
 
-Import your repository in [Netlify](https://netlify.com)
-
-1. Create a new site in Netlify and import your repository.
-2. Set the build command to: `hugo --gc --minify`
-3. Set the publish directory to: `public`
-4. Set `GO_VERSION` to `1.12` or above
-4. Set `HUGO_VERSION` to `0.65.3` or above
-
-That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
-
-## Deploy on Vercel
-
-Import your repository in [Vercel](https://vercel.com/new/git/third-party)
-
-[Add a bash script](https://gist.github.com/DirtyF/4f89704ecd619c0dcd439d74115da542#file-hugo_build-sh) and [build steps via a `vercel.json` file](https://gist.github.com/DirtyF/4f89704ecd619c0dcd439d74115da542#file-vercel-json) in your repository in order to build the site.
+Commit to GitHubs master branch. Results will be visible at: https://unitedlambdas.github.io/
 
 ## Development
 
 ```bash
-# clone your repository
-# cd in your project directory
-# Start local server
-hugo server
+make serve
 ```
 
 For more information, see [official Hugo documentation](https://gohugo.io/getting-started/).
 
 ## Customization
-
-### Logo
-
-Add to your projects layout directory your logo's SVG:
-`/layouts/icons/ui/logo.html`
 
 ### Socials
 
