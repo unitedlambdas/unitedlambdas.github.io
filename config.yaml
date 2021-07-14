@@ -9,6 +9,11 @@ metaDataFormat: yaml
 theme: "hugo-theme-novela"
 paginate: 6
 social:
-  github: "http://github.com/unitedlambdas/"
+  github: "#unitedlambdas/"
+  twitter: ""
+  instagram: ""
+  linkedin: ""
+  dribbble: ""
+  youtube: ""
 taxonomies:
   author: authors

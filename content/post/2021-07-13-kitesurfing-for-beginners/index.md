@@ -8,6 +8,7 @@ authors:
   - Daniel Oberg
 
 draft: false
+math: true
 ---
 
 Let's talk about kitesurfing.
@@ -24,6 +25,13 @@ Which kite
 All kite manufacturers state on the packaging the standard wind range they recommend for use with that kite. This is based on the assumption that you weigh 75kg. To compensate for every 10 kg difference, add or subtract 1 m² for the size of the kite or 1 m/s for the wind speed.
 
 For example, if there's a 10 m kite, wind range 12 m/s, your weight is 95 kg, you can use this kite at a wind range of 14 m/s.
+
+$$f(\relax{s_k, w_p}) = \frac{(w_p-75)}{10} + s_k$$
+where:
+$$f = \text{wind speed after weight adjustment}$$
+$$\relax{s_k} = \text{recommended wind speed for kite}$$
+$$\relax{w_p} = \text{a persons weight}$$
+
 
 Larger kite sizes offer more pull, are more forgiving and handle gusty winds better. If you weigh more than 85 kg and surf in light winds, you should buy at least 13-14 m2.
 

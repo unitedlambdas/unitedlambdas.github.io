@@ -1,8 +1,8 @@
 ---
 title: Milan Ivanovic
 bio: |
-  Kernel hacker with a heart of gold.
-avatar: /images/milan-ivanovic.jpg
+  Kernel hacker, expat and performance engineer in high frequency trading
+avatar: /authors/milan-ivanovic/self.jpg
 featured: true
 social:
 ---
