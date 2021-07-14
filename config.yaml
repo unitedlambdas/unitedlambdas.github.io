@@ -1,21 +1,14 @@
-baseURL: "https://example.com"
+baseURL: "https://unitedlambdas.github.io"
 languageCode: "en-us"
-title: "Hugo Novela"
+title: "United Lambdas"
 pygmentsstyle: 'monokai'
 metaDataFormat: yaml
 
 # Theme settings
 # theme: novela
-module:
-  imports:
-    - path: "github.com/forestryio/hugo-theme-novela"
+theme: "hugo-theme-novela"
 paginate: 6
 social:
-  twitter: "#"
-  github: "#"
-  instagram: "#"
-  linkedin: "#"
-  dribbble: "#"
-  youtube: "#"
+  github: "http://github.com/unitedlambdas/"
 taxonomies:
   author: authors
